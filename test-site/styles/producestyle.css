@@ -1,0 +1,10 @@
+html {
+    font-family: Odibee sans-serif;
+    font-size: 14px;
+}
+
+body {
+    background-color: cornflowerblue;
+    width: 600px;
+    margin: 0 auto;
+}
