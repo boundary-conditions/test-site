@@ -12,12 +12,12 @@ myImage.onclick = function() {
  let myHeading = document.querySelector('h1');
 
  function setUserName() {
-     let myName = prompt('Please enter your name.');
+     let myName = prompt('What is the best?');
      if(!myName || myName === null) {
          setUserName();
      }
      localStorage.setItem('name', myName);
-     myHeading.textContent = 'Colleen is Cool, ' + myName;
+     myHeading.textContent = 'Colleen is as Cool as ' + myName;
  }
  if(!localStorage.getItem('name')) {
      setUserName();
